@@ -4,7 +4,7 @@ import React from "react";
 
 export default function missionVision() {
   return (
-    <div className="flex flex-col gap-16 mb-16 max-w-7xl mx-auto bg-white border-t border-stone-200">
+    <div className="flex flex-col gap-16 py-16 px-4 sm:px-8 mb-16 max-w-7xl mx-auto bg-white border-t border-stone-200">
         <div className="grid lg:grid-cols-2 gap-12 items-center mt-16">
           <div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#6D2C2C] mb-4">

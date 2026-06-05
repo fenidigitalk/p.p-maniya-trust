@@ -17,7 +17,7 @@ export default function HeroSection() {
 
   return (
     <div className="lg:col-span-5 relative mt-6 lg:mt-0">
-      <div className="relative z-10 rounded-2xl overflow-hidden h-[1000px] w-full aspect-[4/3]">
+      <div className="relative z-10 rounded-2xl overflow-hidden w-full aspect-[4/3] h-[300px] sm:h-[450px] md:h-[600px] lg:h-[700px] xl:h-[800px]">
         {slides.map((slide, i) => (
           <div
             key={i}
@@ -27,7 +27,7 @@ export default function HeroSection() {
             <img
               src={slide.src}
               alt={`Slide ${i + 1}`}
-              className="w-full h-[1000px] object-cover"
+              className="w-full h-full object-cover"
             />
           </div>
         ))}
