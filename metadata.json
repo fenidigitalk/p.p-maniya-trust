@@ -1,0 +1,6 @@
+{
+  "name": "P.P. Maniya Education and Medical Trust",
+  "description": "Serving society through education, healthcare, and social welfare initiatives. Dedicated to legacy, transparency, and compassion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
